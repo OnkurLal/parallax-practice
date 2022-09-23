@@ -25,8 +25,14 @@ body, html {
 .card{
     border: solid;
     border-color: black;
-    padding: 2%;
+    padding: 1% 4%;
 }
 .part1{
     background-image: url("../images/part1Pic.jpg");
+}
+.part2{
+    background-image: url("../images/part2pic.jpg");
+}
+.part3{
+    background-image: url("../images/part3Pic.jpg");
 }
