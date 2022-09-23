@@ -1,0 +1,18 @@
+h1{
+    font-family: 'Lobster', cursive;
+}
+.jumbotron{
+    background-image: url("https://picsum.photos/200/300");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+}
+h1{
+    padding: 10% 0%;
+}
+.nav-link{
+    color: white;
+}
+.navbar-toggler-icon{
+    color: white;
+}
