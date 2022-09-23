@@ -2,17 +2,31 @@ h1{
     font-family: 'Lobster', cursive;
 }
 .jumbotron{
-    background-image: url("https://picsum.photos/200/300");
+    background-image: url("../images/homePic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30rem;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
 }
-h1{
-    padding: 10% 0%;
-}
+body, html {
+    height: 100%;
+  }
 .nav-link{
     color: white;
 }
 .navbar-toggler-icon{
     color: white;
+}
+.btn{
+    background-color: transparent;
+    border-color: white;
+}
+.card{
+    border: solid;
+    border-color: black;
+    padding: 2%;
+}
+.part1{
+    background-image: url("../images/part1Pic.jpg");
 }
