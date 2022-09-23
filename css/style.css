@@ -40,3 +40,6 @@ footer{
 body{
     font-family: 'Tiro Telugu', serif;
 }
+.nav{
+    position: fixed;
+}
