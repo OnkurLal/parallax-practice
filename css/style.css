@@ -39,3 +39,6 @@ body, html {
 .part4{
     background-image: url("../images/part4pic.jpg");
 }
+footer{
+    padding: 3%;
+}
