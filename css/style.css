@@ -13,32 +13,30 @@ body, html {
     height: 100%;
   }
 .nav-link{
-    color: white;
-}
-.navbar-toggler-icon{
-    color: white;
+color: white;
 }
 .btn{
     background-color: transparent;
     border-color: white;
 }
 .card{
-    border: solid;
-    border-color: black;
     padding: 1% 4%;
 }
-.part1{
+#part1{
     background-image: url("../images/part1Pic.jpg");
 }
-.part2{
+#part2{
     background-image: url("../images/part2pic.jpg");
 }
-.part3{
+#part3{
     background-image: url("../images/part3Pic.jpg");
 }
-.part4{
+#part4{
     background-image: url("../images/part4pic.jpg");
 }
 footer{
     padding: 3%;
+}
+body{
+    font-family: 'Tiro Telugu', serif;
 }
