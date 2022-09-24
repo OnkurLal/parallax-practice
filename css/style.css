@@ -2,17 +2,44 @@ h1{
     font-family: 'Lobster', cursive;
 }
 .jumbotron{
-    background-image: url("https://picsum.photos/200/300");
+    background-image: url("../images/homePic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30rem;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100%;
 }
-h1{
-    padding: 10% 0%;
-}
+body, html {
+    height: 100%;
+  }
 .nav-link{
-    color: white;
+color: white;
 }
-.navbar-toggler-icon{
-    color: white;
+.btn{
+    background-color: transparent;
+    border-color: white;
+}
+.card{
+    padding: 1% 4%;
+}
+#part1{
+    background-image: url("../images/part1Pic.jpg");
+}
+#part2{
+    background-image: url("../images/part2pic.jpg");
+}
+#part3{
+    background-image: url("../images/part3Pic.jpg");
+}
+#part4{
+    background-image: url("../images/part4pic.jpg");
+}
+footer{
+    padding: 3%;
+}
+body{
+    font-family: 'Tiro Telugu', serif;
+}
+.nav{
+    position: fixed;
 }
