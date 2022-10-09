@@ -56,19 +56,53 @@
           class="card w-50 bg-dark bg-success text-dark bg-opacity-50 text-white text-center"
         >
           <div class="card-body">
-            <h2>Part 1</h2>
-            <h6 class="text-muted">9/24/2022</h6>
-            <br />
-            <p>
-              This is a paragraph of words for this project. This is a paragraph
-              of words for this project. This is a paragraph of words for this
-              project. This is a paragraph of words for this project. This is a
-              paragraph of words for this project. This is a paragraph of words
-              for this project. This is a paragraph of words for this project.
-            </p>
-            <a class="btn text-white btn-lg" href="#" role="button"
-              >Learn more</a
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
             >
+              Delete
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content bg-dark">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                      Delete Option
+                    </h1>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    Are you sure you want to delete this item?
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Yes
+                    </button>
+                    <button type="button" class="btn btn-secondary">No</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -79,19 +113,82 @@
           class="card w-50 bg-dark bg-success text-dark bg-opacity-50 text-white text-center"
         >
           <div class="card-body">
-            <h2>Part 2</h2>
-            <h6 class="text-muted">9/24/2022</h6>
-            <br />
-            <p>
-              This is a paragraph of words for this project. This is a paragraph
-              of words for this project. This is a paragraph of words for this
-              project. This is a paragraph of words for this project. This is a
-              paragraph of words for this project. This is a paragraph of words
-              for this project. This is a paragraph of words for this project.
-            </p>
-            <a class="btn text-white btn-lg" href="#" role="button"
-              >Learn more</a
-            >
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item bg-transparent">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button bg-transparent text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    Persevere
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-white text-start">
+                    Continue in a course of action even in the face of
+                    difficulty or with little or no prospect of success.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-transparent">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed bg-transparent text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Triumph
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-white text-start">
+                    A great victory or achievement.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item bg-transparent">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed bg-transparent text-white"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    Cascade
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body text-white text-start">
+                    A process whereby something, typically information or
+                    knowledge, is successively passed on.
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
